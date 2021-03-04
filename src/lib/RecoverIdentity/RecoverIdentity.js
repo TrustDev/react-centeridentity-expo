@@ -122,7 +122,7 @@ export default class RecoverIdentity extends React.Component {
             setTimeout(async () => {
               this.setModalVisible(!this.state.modalVisible);
 
-              var res = await this.props.ci.registerWithLocation(
+              var result = await this.props.ci.registerWithLocation(
                 this.state.privateUsername,
                 this.props.publicUsername,
                 this.state.lat,

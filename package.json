@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "tsc",
-    "prepare": "yarn run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -25,6 +23,6 @@
   "devDependencies": {
     "react": "^17.0.2",
     "react-native": "^0.63.50",
-    "prop-types": "^15.7.2",
+    "prop-types": "^15.7.2"
   }
 }
